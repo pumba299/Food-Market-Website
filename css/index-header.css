@@ -7,6 +7,7 @@
     color:var(--text-dark-accent-color);
 }
 
-.ul {
-    display: inline;
+.icons__header {
+    display: flex;
+    justify-content: space-around;
 }
