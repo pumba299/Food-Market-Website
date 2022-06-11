@@ -1,13 +1,62 @@
-.contacts__header {
+.contacts-wrapper__header {
     background-color: var(--background-light-color);
+}
+
+.contacts-container__header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
     display: flex;
+    justify-content: space-between;
+}
+
+.contacts__header {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 -15px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 22.4px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    border-color: var(--text-dark-accent-color);
+}
+
+.contact-container__header {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact {
+    color: var(--link-dark-accent-color);
+    font-weight: 600;
 }
 
 .text-contact {
     color:var(--text-dark-accent-color);
+    font-weight: 700;
 }
 
-.icons__header {
+.social-icons-container__header {
     display: flex;
-    justify-content: space-around;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    margin-bottom: -15px;
 }
+
+.social-icon {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    width: 27px;
+    height: 27px;
+    color: var(--link-dark-accent-color);
+}
+
+.fa-brands {
+    color: var(--link-dark-accent-color);
+}
+
