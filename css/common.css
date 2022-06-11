@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+} 
+
+:root {
+    
+    font-family: ;
+    --text-dark-accent-color: #f69946;
+    --background-light-color: #fbf4f0;;
+    --background-shade-color: ;
+    --text-header-color: ;
+    --plain-text-color: ;
+    --top-brands-background-color: ;
+    --top-brands-span-text-color: ;
+    --top-brands-h2-text-color: ;
+    --text-footer-bold-color: ;
+    --border-color: ;
+    --colorful-block-text-color: ;
+    --black-white-block-text-color: ;
+}

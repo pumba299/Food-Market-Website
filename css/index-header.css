@@ -1,0 +1,12 @@
+.contacts__header {
+    background-color: var(--background-light-color);
+    display: flex;
+}
+
+.text-contact {
+    color:var(--text-dark-accent-color);
+}
+
+.ul {
+    display: inline;
+}
