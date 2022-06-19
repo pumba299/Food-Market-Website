@@ -1,62 +1,74 @@
 .contacts-wrapper__header {
     background-color: var(--background-light-color);
 }
-
 .contacts-container__header {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    
 }
-
 .contacts__header {
     display: flex;
-    justify-content: flex-start;
-    margin: 0 -15px;
     font-size: 14px;
+    margin-right: -10px;
+    margin-left: -10px;
+    font-weight: 600;
     letter-spacing: 0.7px;
     line-height: 22.4px;
-    overflow-wrap: break-word;
-    vertical-align: baseline;
-    border-color: var(--text-dark-accent-color);
 }
-
-.contact-container__header {
+.contact-container__header{
     margin-top: 5px;
-    margin-left: 10px;
     margin-right: 10px;
+    margin-left: 10px;
 }
-
-.contact {
-    color: var(--link-dark-accent-color);
-    font-weight: 600;
-}
-
-.text-contact {
-    color:var(--text-dark-accent-color);
-    font-weight: 700;
-}
-
 .social-icons-container__header {
     display: flex;
+    margin-bottom: -15px;
     margin-left: -7.5px;
     margin-right: -7.5px;
-    margin-bottom: -15px;
 }
-
 .social-icon {
-    margin-top: 5px;
-    margin-bottom: 15px;
-    text-align: left;
-    margin-left: 7.5px;
-    margin-right: 7.5px;
     width: 27px;
     height: 27px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
     color: var(--link-dark-accent-color);
 }
-
-.fa-brands {
+.svgIcon_1J7 .logo_2gS {
+    fill: currentColor;
+}
+.text-contact{
+    color: var(--text-dark-accent-color);
+    font-weight: 700;
+}
+.contact {
     color: var(--link-dark-accent-color);
 }
+/*---------------*/
 
+.menu__header {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+.logo-freshy {
+    width: 189px;
+    height: auto;
+}
+.menu-links__header {
+    display: flex;
+    justify-content: space-around;
+}
+.item-menu__header {
+    margin: 5px 7.5px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 16px;
+
+}
