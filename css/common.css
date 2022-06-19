@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,8 @@ img {
     --background-light-color: #fbf4f0;
     --link-dark-accent-color: rgb(164, 157, 152);
     --background-shade-color: ;
-    --text-header-color: #333;
+    --text-header-dark-color: #333;
+    --text-header-light-color: #f69946;
     --plain-text-color: ;
     --top-brands-background-color: ;
     --top-brands-span-text-color: ;
@@ -34,4 +35,6 @@ img {
     --border-color: ;
     --colorful-block-text-color: ;
     --black-white-block-text-color: ;
+    --text-brand-color: #a9c623;
+    --button-light-color: #fff;
 }

@@ -75,6 +75,6 @@
     line-height: 16px;
 }
 .item-menu__header a {
-    color: var(--text-header-color);
+    color: var(--text-header-dark-color);
     text-transform: capitalize;
 }
