@@ -54,4 +54,30 @@
     font-weight: 700;
     color: var(--button-light-color);
     box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+    width: 167.734px;
+}
+.shop-now__button-icon{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+}
+.shop-now__icon {
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+.try-app__button {
+    margin: 10px;
+    padding: 21px 36px;
+    width: 177.531px;
+    font-size: 13.2px;
+    color: var(--text-header-light-color);
+    font-weight: 700;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--text-brand-color);
+}
+.try-app__button-icon {
+    
 }

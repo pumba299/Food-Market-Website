@@ -43,7 +43,7 @@
     fill: currentColor;
 }
 .text-contact{
-    color: var(--text-dark-accent-color);
+    color: var(--text-header-light-color);
     font-weight: 700;
 }
 .contact {
