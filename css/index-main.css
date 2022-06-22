@@ -71,6 +71,7 @@
     padding: 21px 36px;
     width: 177.531px;
     font-size: 13.2px;
+    font-family: 'Istok Web', sans-serif;
     color: var(--text-header-light-color);
     font-weight: 700;
     border-width: 2px;
@@ -79,5 +80,13 @@
     border-color: var(--text-brand-color);
 }
 .try-app__button-icon {
-    
+    position: absolute;
+    height: 19px;
+}
+.try-app__icon {
+    position: relative;
+    height: 24px;
+    width: 24px;
+    left: 5px;
+    bottom: 3px;
 }
