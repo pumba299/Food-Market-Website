@@ -2,6 +2,9 @@
     background-image: url(../img/photo-main/online-shop_background.png);
     padding: 130px 0;
     font-family: 'Istok Web', sans-serif;
+    background-size: cover;
+    background-position: 35% 35.82%;
+    position: static;
 }
 .groceries-online-shop {
     padding: 0 24px;
@@ -68,9 +71,10 @@
 }
 .try-app__button {
     margin: 10px;
-    padding: 21px 36px;
+    padding: 19px 36px;
     width: 177.531px;
     font-size: 13.2px;
+    line-height: 13.2px;
     font-family: 'Istok Web', sans-serif;
     color: var(--text-header-light-color);
     font-weight: 700;
@@ -89,4 +93,40 @@
     width: 24px;
     left: 5px;
     bottom: 3px;
+}
+.online-shop-background_bottom {
+    background-image: url(../img/photo-main/wave-1.png);
+    padding: 40px 0;
+    position: static;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.product-icons__section{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+}
+.product-icons__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+}
+.product-icons__icon {
+    width: 70px;
+    height: 70px;
+}
+.product-icons__text {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-family: 'Istock Web', sans-serif;
+    font-weight: 700;
+    color: var(--text-header-dark-color);
+    text-align: center;
+}
+.product-icon {
+    margin-top: 50px;
 }
