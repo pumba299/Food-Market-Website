@@ -116,17 +116,29 @@
 .product-icons__icon {
     width: 70px;
     height: 70px;
+    
 }
 .product-icons__text {
     margin-top: 20px;
     font-size: 22px;
     line-height: 1.4;
-    letter-spacing: 0;
     font-family: 'Istock Web', sans-serif;
     font-weight: 700;
     color: var(--text-header-dark-color);
     text-align: center;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
 }
 .product-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-top {
     margin-top: 50px;
 }
+/* .deliver__image {
+
+} */
