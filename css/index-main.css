@@ -8,6 +8,8 @@
 }
 .groceries-online-shop {
     padding: 0 24px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .groceries-online-shop__header {
     padding: 0 15px;
@@ -92,7 +94,7 @@
     height: 24px;
     width: 24px;
     left: 5px;
-    bottom: 3px;
+    bottom: 5px;
 }
 .online-shop-background_bottom {
     background-image: url(../img/photo-main/wave-1.png);
@@ -102,10 +104,12 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+/* product icons */
 .product-icons__section{
     padding-top: 90px;
     padding-bottom: 50px;
     max-width: 1200px;
+    margin: 0 auto;
 }
 .product-icons__content{
     display: flex;
@@ -122,7 +126,7 @@
     margin-top: 20px;
     font-size: 22px;
     line-height: 1.4;
-    font-family: 'Istock Web', sans-serif;
+    font-family: 'Istok Web', sans-serif;
     font-weight: 700;
     color: var(--text-header-dark-color);
     text-align: center;
@@ -139,6 +143,48 @@
 .icon-top {
     margin-top: 50px;
 }
-/* .deliver__image {
-
-} */
+/* deliver */
+.deliver-fresh__section {
+    padding: 60px 24px;
+}
+.deliver-picture {
+    margin: 0 -15px;
+    padding: 0 15px;
+}
+.deliver-img {
+    width: 272px;
+    height: 287.734px;
+    object-position: 100% 91.942%;
+    object-fit: cover;
+}
+.deliver-fresh__content {
+margin-top: 50px;
+}
+.deliver-fresh_p {
+font-size: 14px;
+color: var(--text-header-light-color);
+line-height: 18.2px;
+font-weight: 700;
+font-family: 'Istok Web', sans-serif;
+}
+.deliver-fresh_header {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: var(--text-header-dark-color);
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+}
+.deliver-fresh_text {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--text-header-dark-color);
+}
+.deliver-fresh-list {
+    display: flex;
+    margin-top: 25px;
+}
