@@ -21,7 +21,7 @@ img {
 
 :root {
     font-family: 'Source Sans Pro', sans-serif;
-    --text-dark-accent-color: ;
+    --text-dark-accent-color: #707070;
     --background-light-color: #fbf4f0;
     --link-dark-accent-color: rgb(164, 157, 152);
     --background-shade-color: ;
@@ -37,4 +37,5 @@ img {
     --black-white-block-text-color: ;
     --text-brand-color: #a9c623;
     --button-light-color: #fff;
+    --button-background-color: #dd7c26;
 }

@@ -176,7 +176,7 @@ font-family: 'Istok Web', sans-serif;
     font-family: 'Istok Web', sans-serif;
     font-weight: 700;
 }
-.deliver-fresh_text {
+.deliver-fresh_text-subtitle {
     margin-top: 25px;
     font-size: 18px;
     line-height: 1.56;
@@ -187,4 +187,53 @@ font-family: 'Istok Web', sans-serif;
 .deliver-fresh-list {
     display: flex;
     margin-top: 25px;
+    flex-wrap: wrap;
+    margin-bottom: -16px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.check-mark_icon {
+    color: var(--text-brand-color);
+    width: 24px;
+    height: 24px;
+    max-width: 20px;
+}
+.check-mark_text {
+    margin-left: 10px;
+    /* font-family: 'Istok Web', sans-serif; */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: var(--text-dark-accent-color);
+}
+.deliver-fresh-icon {
+    display: flex;
+    padding: 0 12px;
+    margin-bottom: 16px;
+    width: auto;
+}
+.deliver-fresh_text-body {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: var(--text-dark-accent-color);
+}
+.deliver-fresh_button-icon {
+width: 24px;
+height: 24px;
+}
+.deliver-fresh_btn-group {
+    margin-top: 35px;
+}
+.deliver-fresh_button {
+    padding: 21px 36px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.la {
+    margin-top: 100px;
 }
