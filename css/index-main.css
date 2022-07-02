@@ -221,19 +221,58 @@ font-family: 'Istok Web', sans-serif;
     font-weight: 400;
     color: var(--text-dark-accent-color);
 }
+.deliver-fresh_apple-icon {
+    position: absolute;
+    left: 71.734px;
+    top: -6.594px;
+}
 .deliver-fresh_button-icon {
-width: 24px;
-height: 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
 }
 .deliver-fresh_btn-group {
     margin-top: 35px;
+    display: flex;
 }
 .deliver-fresh_button {
-    padding: 21px 36px;
+    width: auto;
+    margin: -10px;
+}
+.deliver-fresh_button-shop {
+    display: inline-block;
+    margin: 10px;
+    padding: 19px 34px;
+    background-color: var(--text-header-light-color);
+    box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
+    vertical-align: middle;
+    position: relative;
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
+    border-color: transparent;
 }
-.la {
-    margin-top: 100px;
+.deliver-fresh_button-shop:hover {
+    cursor: pointer;
+    transition: color .2s ease-in,background-color .2s ease-in,border-color .2s ease-in,box-shadow .2s ease-in,-webkit-box-shadow .2s ease-in;
 }
+.deliver-fresh_button-content {
+    align-items: center;
+    display: flex;
+    color: var(--button-light-color);
+    font-size: 13.2px;
+    line-height: 1em;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-family: 'Istok Web', sans-serif;
+    position: relative;
+}
+.deliver-fresh_shop-now {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 32px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+
