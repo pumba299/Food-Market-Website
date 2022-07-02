@@ -1,13 +1,13 @@
-.contacts-wrapper__header {
+/* .contacts-wrapper__header {
     background-color: var(--background-light-color);
-}
+}*/
 .contacts-container__header {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     padding: 10px 15px;
     margin: 0 auto;
-    
+    flex-direction: column;
 }
 .contacts__header {
     display: flex;
@@ -49,12 +49,12 @@
 .contact {
     color: var(--link-dark-accent-color);
 }
-/*---------------*/
+
 
 .menu__header {
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 auto;
     padding: 20px 15px;
 }
@@ -66,10 +66,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: -5px -7.5px;
+    margin: -10px -5px;
+    flex-direction: column;
 }
 .item-menu__header {
-    margin: 5px 7.5px;
+    margin: 10px 5px;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
@@ -77,4 +78,27 @@
 .item-menu__header a {
     color: var(--text-header-dark-color);
     text-transform: capitalize;
+}
+.navbar-menu__header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-line {
+    height: 2px;
+    width: 24px;
+    background-color: currentColor;
+}
+.burger-menu {
+    padding: 12px 8px;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+}
+.burger-icon {
+    width: 24px;
+    height: 16px;
 }
