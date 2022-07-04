@@ -1,6 +1,6 @@
-/* .contacts-wrapper__header {
-    background-color: var(--background-light-color);
-}*/
+.contacts-wrapper__header {
+    margin-bottom: 30px;
+}
 .contacts-container__header {
     display: flex;
     justify-content: space-between;
@@ -54,9 +54,6 @@
 .menu__header {
     max-width: 1200px;
     display: flex;
-    /* justify-content: space-between; */
-    margin: 0 auto;
-    padding: 20px 15px;
 }
 .logo-freshy {
     width: 189px;
@@ -64,7 +61,7 @@
 }
 .menu-links__header {
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     margin: -10px -5px;
     flex-direction: column;
