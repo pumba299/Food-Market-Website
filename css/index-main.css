@@ -370,6 +370,9 @@ font-family: 'Istok Web', sans-serif;
 .content-grid-item_indent {
     margin-top: 50px;
 }
+
+/*offer block*/
+
 .offer__section {
     padding: 60px 24px;
     min-width: 320px;
@@ -380,8 +383,7 @@ font-family: 'Istok Web', sans-serif;
     max-width: 1200px;
     width: 100%;
 }
-.offer__weekly-sales-content {
-    background-image: url(../img/weekly-sales.png);
+.offer-item {
     padding: 27px 31px;
     display: flex;
     font-family: 'Istok Web', sans-serif;
@@ -392,7 +394,14 @@ font-family: 'Istok Web', sans-serif;
     background-repeat: no-repeat;
     background-color: rgb(169, 198, 35);
 }
-.offer__25-off {
+.weekly-sales {
+    background-image: url(../img/weekly-sales.png);
+}
+.fresh-fruit {
+    background-image: url(../img/fresh-fruit.png);
+    margin-top: 50px;
+}
+.offer-text {
     margin-top: 96.6px;
     color: var(--button-light-color);
     font-size: 14px;
@@ -400,7 +409,7 @@ font-family: 'Istok Web', sans-serif;
     /* font-family: 'Istok Web', sans-serif; */
     font-weight: 700;
 }
-.offer__text {
+.offer-header {
     margin-top: 20px;
     color: var(--button-light-color);
     font-size: 34px;
