@@ -282,9 +282,8 @@ font-family: 'Istok Web', sans-serif;
 }
 .delivery__header {
     margin-top: 50px;
-    padding: 0 15px;
 }
-.delivery__iner {
+.delivery__inner {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -322,5 +321,111 @@ font-family: 'Istok Web', sans-serif;
 .deliver-steps__grid {
     display: flex;
     justify-content: center;
-    
+}
+.delivery__content {
+    margin-top: 45px;
+   
+}
+.delivery__content-grid-icon {
+    width: 70px;
+    height: 70px;
+}
+.delivery__content-grid-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.delivery__content-grid-header {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    color: var(--text-header-dark-color);
+    word-wrap: break-word;
+}
+
+.delivery__content-grid-inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.delivery__grid-number {
+    color: var(--text-header-light-color);
+}
+.delivery__content-grid-text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: var(--text-dark-accent-color);
+}
+.delivery__grid-icon {
+    height: 70px;
+    width: 70px;
+}
+.content-grid-item_indent {
+    margin-top: 50px;
+}
+.offer__section {
+    padding: 60px 24px;
+    min-width: 320px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    word-wrap: break-word;
+    max-width: 1200px;
+    width: 100%;
+}
+.offer__weekly-sales-content {
+    background-image: url(../img/weekly-sales.png);
+    padding: 27px 31px;
+    display: flex;
+    font-family: 'Istok Web', sans-serif;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(169, 198, 35);
+}
+.offer__25-off {
+    margin-top: 96.6px;
+    color: var(--button-light-color);
+    font-size: 14px;
+    line-height: 1.3;
+    /* font-family: 'Istok Web', sans-serif; */
+    font-weight: 700;
+}
+.offer__text {
+    margin-top: 20px;
+    color: var(--button-light-color);
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.offer__button {
+    margin-top: 35px;
+}
+.offer__button-link {
+    color: var(--button-light-color);
+    font-size: 13.2px;
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+}
+.offer__shop-now {
+    padding-left: 0;
+    padding-right: 32px;
+    font-weight: 700;
+    position: relative;
+}
+.offer__shop-now-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 53%;
 }
