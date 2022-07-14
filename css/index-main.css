@@ -438,3 +438,65 @@ font-family: 'Istok Web', sans-serif;
     height: 24px;
     right: 53%;
 }
+/*fresh deals*/
+.fresh-deals__section {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.fresh-deals__header {
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.fresh-deals__header-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fresh-deals__header-text {
+    color: var(--text-header-light-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.fresh-deals__header-title {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+    color: var(--text-header-dark-color);
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.fresh-deals__header-subtitle {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.56;
+    font-weight: 400;
+    color: var(--text-header-dark-color);
+}
+.fresh-deals__content {
+    margin-top: 45px;
+}
+.fresh-deals__tabs-container {
+    display: flex;
+}
+.fresh-deals__tabs-nav {
+    margin-bottom: 30px;
+    margin-left: -15px;
+}
+.fresh-deals__tabs-inner {
+    display: flex;
+    padding: 0 15px;
+}
+.fresh-deals__nav-item {
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    color: var(--tabs-dark-color);
+}
