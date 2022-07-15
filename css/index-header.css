@@ -4,10 +4,12 @@
     top: -100%;
 }
 .contacts-wrapper__header.active {
-    top: 0;
-    background-color: var(--background-light-color);
+    top: 104px;
+    background-color: var(--button-light-color);
     z-index: 2;
-    
+    overflow: hidden;
+    width: 81%;
+    height: 100%;
 }
 .contacts-container__header {
     display: flex;

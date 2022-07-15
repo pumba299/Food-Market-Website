@@ -1,24 +1,7 @@
-/* #burger-checkbox {
-    display: none;
-}
 
-.burger-icon {
-    font-size: 3rem;
-}
 
-.navbar {
-    display: none;
-}
 
-#burger-checkbox:checked ~ .navbar {
-    display: flex;
-}
 
-@media (min-width: 600px) {
-    .burger-icon {
-        display: none;
-    }
-    .navbar {
-        display: flex;
-    }
-} */
+
+
+
