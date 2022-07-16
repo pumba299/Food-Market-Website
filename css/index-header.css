@@ -131,3 +131,6 @@
 .line-bottom {
     bottom: 0;
 }
+body.lock {
+    overflow: hidden;
+}
