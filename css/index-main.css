@@ -485,12 +485,27 @@ font-family: 'Istok Web', sans-serif;
     display: flex;
 }
 .fresh-deals__tabs-nav {
+    position: relative;
     margin-bottom: 30px;
     margin-left: -15px;
+    overflow-y: visible;
+    overflow-x: auto;
 }
 .fresh-deals__tabs-inner {
-    display: flex;
+    display: inline-flex;
     padding: 0 15px;
+    position: relative;
+}
+.fresh-deals__tabs-inner:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    right: 15px;
+    left: 15px;
+    bottom: 0;
+    color: black;
+    background-color: black;
+    opacity: .125;
 }
 .fresh-deals__nav-item {
     padding: 15px 20px;
