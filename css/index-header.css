@@ -1,5 +1,5 @@
 .contacts-wrapper__header {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     position: fixed;
     top: -100%;
 }
@@ -8,8 +8,9 @@
     background-color: var(--button-light-color);
     z-index: 2;
     overflow: hidden;
-    width: 81%;
+    width: 100%;
     height: 100%;
+    position: absolute;
 }
 .contacts-container__header {
     display: flex;
@@ -89,7 +90,7 @@
     font-weight: 600;
     line-height: normal;
 }
-.item-menu__header a {
+.item-menu__header {
     color: var(--text-header-dark-color);
     text-transform: capitalize;
 }
@@ -111,6 +112,7 @@
     display: block;
     width: 24px;
     height: 16px;
+    color: var(--text-header-dark-color);
 }
 
 .burger-line {
@@ -130,4 +132,18 @@
 }
 .line-bottom {
     bottom: 0;
+}
+body.lock {
+    overflow: hidden;
+}
+.burger-icon.active .line-top {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+.burger-icon.active .line-middle {
+    transform: scale(0);
+}
+.burger-icon.active .line-bottom {
+    bottom: 40%;
+    transform: rotate(45deg);
 }

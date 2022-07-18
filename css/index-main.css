@@ -447,7 +447,6 @@ font-family: 'Istok Web', sans-serif;
 }
 .fresh-deals__header {
     margin-top: 50px;
-    padding: 0 15px;
 }
 .fresh-deals__header-content {
     display: flex;
@@ -488,8 +487,7 @@ font-family: 'Istok Web', sans-serif;
     position: relative;
     margin-bottom: 30px;
     margin-left: -15px;
-    overflow-y: visible;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .fresh-deals__tabs-inner {
     display: inline-flex;
@@ -500,12 +498,11 @@ font-family: 'Istok Web', sans-serif;
     content: "";
     position: absolute;
     height: 1px;
-    right: 15px;
-    left: 15px;
-    bottom: 0;
-    color: black;
-    background-color: black;
+    color: inherit;
+    background-color: currentColor;
     opacity: .125;
+    width: 100%;
+    bottom: 0;
 }
 .fresh-deals__nav-item {
     padding: 15px 20px;
