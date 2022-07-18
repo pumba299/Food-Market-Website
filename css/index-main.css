@@ -494,7 +494,7 @@ font-family: 'Istok Web', sans-serif;
     padding: 0 15px;
     position: relative;
 }
-.fresh-deals__tabs-inner:after {
+.fresh-deals__tabs-inner::after {
     content: "";
     position: absolute;
     height: 1px;
@@ -511,4 +511,15 @@ font-family: 'Istok Web', sans-serif;
     font-family: 'Istok Web', sans-serif;
     font-weight: 700;
     color: var(--tabs-dark-color);
+}
+.nav-item-fruit::after {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: var(--text-header-light-color);
+    background-color: var(--text-header-light-color);
 }
