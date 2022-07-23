@@ -769,3 +769,22 @@
     font-weight: bold;
     display: block;
 }
+/* app section */
+.app__wrapp {
+    background-image: url(../img/photo-main/wave-2.png);
+    padding: 40px 0;
+    position: static;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.app__section {
+    padding: 90px 0;
+    background: var(--background-light-color);
+}
+.our-app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+}
