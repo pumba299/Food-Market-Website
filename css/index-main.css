@@ -788,3 +788,99 @@
     padding: 0 24px;
     display: flex;
 }
+.our-app__text {
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    color: var(--text-brand-color);
+}
+.our-app__header {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+    color: var(--text-header-dark-color);
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+}
+.our-app__title {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--text-header-dark-color);
+}
+.our-app__list {
+    margin-top: 25px;
+}
+.our-app__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.our-app__content-inner {
+    min-width: 40%;
+    text-align: left;
+    margin: 7.5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.our-app__content-icon {
+    width: 50px;
+    margin: 7.5px;
+    text-align: center;
+}
+.our-app__content-heading {
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    color: var(--text-header-dark-color);
+    word-wrap: break-word;
+    margin-right: 5px;
+}
+.our-app__content-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    color: var(--text-dark-accent-color);
+    word-wrap: break-word;
+}
+.our-app__content-img {
+    width: 50px;
+}
+li {
+    position: relative;
+}
+.device-mockup {
+    position: relative;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.device-mockup__img {
+    background-image: url(../img/phone-bg-pic.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 31px 27px;
+    display: flex;
+    justify-content: center;
+}
+.device-mokup__phone-edge {
+    position: relative;
+    z-index: 2;
+    width: 46.19%;
+}
+.device-mokup__phone-screen {
+    position: absolute;
+    width: 62.9%;
+    height: 59.9%;
+    bottom: 26.6%;
+    left: 18.5%;
+    display: flex;
+    justify-content: center;
+}
+.phone-screen__img {
+    position: absolute;
+    width: 46%;
+}
