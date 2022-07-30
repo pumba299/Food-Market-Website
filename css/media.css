@@ -1,0 +1,31 @@
+@media(min-width: 375px) {
+    .fresh-produce-img {
+        width: 327px;
+        height: 346px;
+    }
+    .offer__shop-now-icon {
+        right: 60%;
+    }
+    .our-app__store-icons {
+        display: flex;
+    }
+    .our-app__app-store {
+        margin-right: 10px;
+    }
+    .our-app__gogle-play {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+@media(min-width: 480px) {
+    .product-icons__content {
+        flex-wrap: wrap;
+        flex-direction: unset;
+    }
+    .product-icon {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
