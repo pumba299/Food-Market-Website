@@ -1054,7 +1054,7 @@
     margin-top: 50px;
     padding: 0 15px;
 }
-.footer__nav-text {
+.footer__content-text {
     font-size: 22px;
     line-height: 1.4;
     letter-spacing: 0;
@@ -1072,4 +1072,28 @@
     font-size: 16px;
     color: var(--button-light-color);
     font-weight: 600;
+}
+.footer__contacts-block {
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.footer__contacts-menu {
+    margin-top: 20px;
+}
+.footer__contact-item {
+    margin-bottom: 16px;
+}
+.footer__contact-text {
+    font-size: 18px;
+    line-height: 1.56;
+    font-weight: bold;
+    color: var(--button-light-color);
+}
+.footer__contact-text-body {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: .05em;
+    font-weight: 600;
+    color: var(--shade-text-color);
 }
