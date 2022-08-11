@@ -1031,6 +1031,7 @@
     color: var(--shade-text-color);
 }
 .footer-social-icon-img {
+    fill: currentColor;
     width: 30px;
     height: 30px;
 }
@@ -1041,7 +1042,34 @@
 }
 .footer-social-icon {
     margin: 0 7.5px 15px;
+    
 }
 .footer__text-block-social-icons {
     margin-top: 30px;
+}
+.footer-social-icon-link {
+    color: var(--text-header-light-color);
+}
+.footer__nav-block {
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.footer__nav-text {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    color: var( --text-brand-color);
+}
+.footer__nav-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__item-menu {
+    margin: 10px 5px;
+    font-size: 16px;
+    color: var(--button-light-color);
+    font-weight: 600;
 }
