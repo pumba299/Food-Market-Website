@@ -3,9 +3,6 @@
         width: 327px;
         height: 346px;
     }
-    .offer__shop-now-icon {
-        right: 60%;
-    }
     .our-app__store-icons {
         display: flex;
     }
@@ -28,6 +25,12 @@
     }
     .offer__shop-now-icon {
         right: 224px;
+    }
+    .time-offer__discount {
+        display: inline;
+    }
+    .time-offer__promo {
+        display: block;
     }
 }
 @media(min-width: 480px) {

@@ -574,7 +574,7 @@
 
 .indicators__section {
     background-image: url(../img/photo-main/indicators-background.jpg);
-    background-position: 42.63% 48.86%;
+    background-position: 43.63% 48.86%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1036,7 +1036,7 @@
 }
 .logo-freshy-footer {
     width: 215px;
-    margin: 0 28.5px;
+    margin: auto;
 }
 .footer__text-block {
     padding: 0 15px;
@@ -1117,6 +1117,9 @@
     line-height: 1.6;
     letter-spacing: .05em;
     font-weight: 600;
+    color: var(--shade-text-color);
+}
+.footer__contact-text-body a {
     color: var(--shade-text-color);
 }
 .footer__subscribe-text {
