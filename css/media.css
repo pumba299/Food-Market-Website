@@ -33,15 +33,74 @@
         display: block;
     }
 }
+@media(min-width: 400px){
+    .fresh-produce-img {
+        width: 352px;
+        height: 372px;
+    }
+    .offer__shop-now-icon {
+        right: 249px;
+    }
+    .device-mokup__phone-screen {
+    width: 66.9%;
+    height: 60.9%;
+    bottom: 26.6%;
+    left: 16.5%;
+    }
+}
 @media(min-width: 480px) {
     .product-icons__content {
         flex-wrap: wrap;
         flex-direction: unset;
+        margin: 0 -15px;
     }
     .product-icon {
         flex-basis: 50%;
         max-width: 50%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .icon-bottom {
+        margin-bottom: 50px;
+    }
+    .fresh-produce-img {
+        width: 432px;
+        height: 457px;
+    }
+    .offer__shop-now-icon {
+        right: 329px;
+    }
+    .time-offer__countdown {
+        margin-top: 99.6px;
+    }
+    .device-mokup__phone-edge {
+        width: 47.19%;
+    }
+    .device-mokup__phone-screen {
+        width: 70.9%;
+        height: 62.9%;
+        bottom: 26.6%;
+        left: 14.5%;
+        }
+}
+@media(min-width: 768px){
+    .navbar-menu__header{
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .online-shop-content {
+        flex-basis: 58.33333%;
+        max-width: 58.33333%;
+    }
+    .groceries-shop {
+        padding-top: 190px;
+        padding-bottom: 190px;
+    }
+    .groceries-online-shop {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .groceries-online-shop__h2 {
+        font-size: 64px;
     }
 }
