@@ -16,6 +16,19 @@
         margin-top: 0;
         margin-left: 10px;
     }
+    .shop-now__icon {
+        bottom: 6px;
+        left: 8px;
+    }
+    .try-app__icon {
+        left: 8px;
+    }
+    .fresh-produce_apple-icon {
+        top: -5.594px;
+    }
+    .offer__shop-now-icon {
+        right: 224px;
+    }
 }
 @media(min-width: 480px) {
     .product-icons__content {
