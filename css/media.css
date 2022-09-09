@@ -117,4 +117,8 @@
     .product-icon:nth-last-child(-n+2) {
         margin-top: 30px;
     }
+    .product-icons__icon {
+        height: 100px;
+        width: 100px;
+    }
 }
