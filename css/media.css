@@ -103,4 +103,18 @@
     .groceries-online-shop__h2 {
         font-size: 64px;
     }
+    .product-icons__content {
+        justify-content: flex-start;
+    }
+    .product-icon {
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+    .icon-top, .icon-bottom {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .product-icon:nth-last-child(-n+2) {
+        margin-top: 30px;
+    }
 }
