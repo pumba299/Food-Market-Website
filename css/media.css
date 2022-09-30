@@ -85,8 +85,7 @@
 }
 @media(min-width: 768px){
     .navbar-menu__header{
-        padding-right: 32px;
-        padding-left: 32px;
+        padding: 20px 32px;
     }
     .online-shop-content {
         flex-basis: 58.33333%;
@@ -120,5 +119,29 @@
     .product-icons__icon {
         height: 100px;
         width: 100px;
+    }
+    .fresh-produce__section {
+        padding: 60px 32px;
+        display: flex;
+        /* justify-content: center; */
+        flex-wrap: wrap;
+        /* width: calc(100% + 30px); */
+        margin: 0 -15px;
+    }
+    .fresh-produce-picture {
+        flex-basis: 50%;
+        max-width: 50%;
+        margin: 0;
+    }
+    .fresh-produce_inner {
+        flex-basis: 50%;
+        padding: 0 15px;
+    }
+    .fresh-produce-img {
+        width: 337px;
+        height: 356.5px;
+        object-position: 100% 91.942%;
+        object-fit: cover;
+        padding-top: 11.79%;
     }
 }
