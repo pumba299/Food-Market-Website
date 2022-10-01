@@ -160,8 +160,8 @@
     .delivery__content-grid-item {
         flex-basis: 50%;
         max-width: 50%;
-        margin-top: 0;
         padding: 0 15px;
+        margin-top: 0;
     }
     .delivery__content-grid-items {
         display: flex;
@@ -174,5 +174,67 @@
     .delivery__grid-icon, .delivery__content-grid-icon {
         height: 100px;
         width: 100px;
+    }
+    .offer__section{
+        padding: 60px 32px;
+    }
+    .offer__grid {
+        display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .offer-item {
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding: 28px 34px;
+    }
+    .fresh-fruit {
+        margin-top: 0;
+    }
+    .offer-text {
+        margin-top: 105.39px;
+    }
+    .offer-header {
+        font-size: 38px;
+    }
+    .offer__shop-now-icon {
+        right: 605px;
+    }
+    .fresh-deals__header {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    .fresh-deals__header-title {
+        font-size: 38px;
+    }
+    .fresh-deals__tabs-container {
+        justify-content: center;
+    }
+    .fresh-deals__tabs-items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .fresh-deals__tabs-item-background {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding: 28px 25px;
+    }
+    .fresh-deals__tabs-item {
+        padding: 34px 28px;
+    }
+    .indicators__inner {
+        flex-direction: unset;
+        flex-wrap: wrap;
+    }
+    .indicarots__content {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .indicarots__content:nth-child(2){
+        margin-top: 0;
     }
 }
