@@ -1195,3 +1195,7 @@
 .rights-text__top {
     margin-top: 20px;
 }
+.fresh-produce_photo {
+    display: block;
+    position: relative;
+}

@@ -142,6 +142,37 @@
         height: 356.5px;
         object-position: 100% 91.942%;
         object-fit: cover;
-        padding-top: 11.79%;
+    }
+    .fresh-produce__content {
+        margin-top: 0;
+    }
+    .fresh-produce_header {
+        font-size: 38px;
+    }
+    .delivery__title {
+        font-size: 38px;
+    }
+    .delivery__inner {
+        flex-basis: 66.66667%;
+        max-width: 66.66667%;
+        margin: 0 130.5px;
+    }
+    .delivery__content-grid-item {
+        flex-basis: 50%;
+        max-width: 50%;
+        margin-top: 0;
+        padding: 0 15px;
+    }
+    .delivery__content-grid-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .get_your_delivery {
+        margin-top: 30px;
+    }
+    .delivery__grid-icon, .delivery__content-grid-icon {
+        height: 100px;
+        width: 100px;
     }
 }
