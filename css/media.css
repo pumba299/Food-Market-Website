@@ -237,4 +237,36 @@
     .indicarots__content:nth-child(2){
         margin-top: 0;
     }
+    .week-deals__header-title {
+        font-size: 38px;
+    }
+    .week-deals__header-content {
+        margin-right: 135px;
+        margin-left: 135px;
+    }
+    .time-offer__section {
+        padding-bottom: 95px;
+        padding-left: 32px;
+        padding-right: 32px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    }
+    .time-offer__content {
+        padding: 46px 28px;
+    }
+    .time-offer__title {
+        font-size: 38px;
+    }
+    .time-offer__countdown {
+        margin-top: 156.42px;
+    }
+    .app__section {
+        padding-top: 95px;
+        padding-bottom: 105px;
+        display: flex;
+    }
+    .our-app {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }
