@@ -268,5 +268,22 @@
     .our-app {
         padding-left: 32px;
         padding-right: 32px;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .our-app__header {
+        font-size: 38px;
+    }
+    .device-mockup {
+        margin-top: 0;
+    }
+    .device-mokup__phone-screen {
+        width: 67.3%;
+        height: 66.9%;
+        bottom: 26.6%;
+        left: 16.5%;
+    }
+    .device-mockup__img {
+        padding-bottom: 324px;
     }
 }
